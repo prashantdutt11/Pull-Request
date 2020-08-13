@@ -23,8 +23,8 @@ const PullRequest = (props) => {
             return(
                 <div>
                 <br />
-                    <p>pull title :{pr.id}</p>
-                    <p>pr number: {pr.number}</p>
+                    <p>pull title :{pr.title}</p>
+                    <p>pr number: {pr.id}</p>
                     <p>pr state: {pr.state}</p>
                     <p>create: {pr.created_at}</p>
                 <br />
